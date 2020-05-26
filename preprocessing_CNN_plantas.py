@@ -5,7 +5,7 @@ import cv2
 import random
 import pickle
 
-DATADIR = "C:/Users/Vinicius Simoes/Google Drive/Poli/9_semestre/PTC3566_Controle_Avancado/Projeto_planta/IA/input_data"
+DATADIR = "./input_data"
 CATEGORIES = ["Cercospora", "Common_rust", "Healthy", "Northern_Leaf_Blight"]
 
 def create_training_data():
